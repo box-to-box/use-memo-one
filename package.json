@@ -83,5 +83,6 @@
     "build:dist": "rollup -c",
     "build:flow": "echo \"// @flow\n\nexport * from '../src';\" > dist/use-memo-one.cjs.js.flow",
     "prepublish": "yarn run build"
-  }
+  },
+  "packageManager": "yarn@4.12.0"
 }
